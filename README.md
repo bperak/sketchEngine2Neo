@@ -9,16 +9,19 @@ Neo4j graph database
 Python package py2neo v=4 
 
 #Instalation
+0) Download sketchEngine2Neo repository
 1) Register at the https://www.sketchengine.eu/
 2) Obtain the Sketch Engine API key and User details at the My Account https://app.sketchengine.eu/#dashboard 
-3) Edit sketchAuthentication.txt
+3) Edit sketchAuthentication.txt and modify authentification keys (In the sketchEngine2Neo Repository)
 4) Install and start Neo4j graph database
-5) Edit neo4jAuthentication.txt
-6) Install py2neo (pip install py2neo)
+5) Edit neo4jAuthentication.txt and modify authentification keys  (In the sketchEngine2Neo Repository)
+6) Install python 3x
+7) Install py2neo (python package for programatic communication with the database: pip install py2neo)
 
 #Getting the WordSketches Usage
 1) start dedicated Neo4j graph database
-2) start any of the WordSketchMining scripts
-3) set word and POS 
+2) start  the WordSketchMining_hrWac.py, or any other script
+3) set the word and POS
+4) query the database for results
 
 
